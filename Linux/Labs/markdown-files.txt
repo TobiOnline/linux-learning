@@ -1,0 +1,6 @@
+./Linux/Commands/files.md
+./Linux/Commands/navigation.md
+./Linux/Commands/README.md
+./Linux/Day01.md
+./Linux/Labs/Day01.md
+./README.md
