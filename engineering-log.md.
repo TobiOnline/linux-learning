@@ -1,0 +1,46 @@
+## Day 5 – Users & Groups
+
+### Objective
+
+Understand Linux users, groups, ownership, and directory permissions.
+
+### Activities
+
+- Created Linux groups (developers, finance, interns)
+- Created users (alice, bob, charlie)
+- Assigned users to groups
+- Explored `/etc/passwd` and `/etc/group`
+- Used `id` and `groups` to verify memberships
+- Investigated directory permissions with `namei -l`
+
+### Biggest Lesson
+
+File permissions alone do not determine access. Every directory in the path must also allow traversal using the execute (`x`) permission.
+
+### Challenge
+
+I received a "Permission denied" error when trying to access `/home/alice/testfile.txt`.
+
+### Root Cause
+
+I did not have execute permission on Alice's home directory, so I could not traverse the path.
+
+### Resolution
+
+Used `namei -l` to identify exactly where access was blocked.
+
+### Commands Practised
+
+- whoami
+- id
+- groups
+- groupadd
+- useradd
+- usermod
+- grep
+- ls -ld
+- namei
+
+### Reflection
+
+This lesson helped me understand that Linux permissions are checked at every level of a file path. I also learned how users, groups, and ownership work together to implement the Principle of Least Privilege.

@@ -6,14 +6,18 @@
 
 ### Linux
 
-- [x] Filesystem & Navigation
-- [x] File Management
-- [ ] File Permissions & Ownership
-- [ ] Users & Groups
-- [ ] Processes & Services
-- [ ] Package Management
-- [ ] SSH
-- [ ] Cron Jobs
+☑ Linux filesystem & navigation
+☑ File management
+◐ File permissions & ownership
+☑ Users & groups
+☐ Processes & services
+☐ Package management
+☐ SSH
+☐ Cron jobs
+☐ Networking fundamentals
+☐ Security fundamentals
+☐ Bash scripting
+☐ Python fundamentals
 
 ### Git
 
