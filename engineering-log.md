@@ -96,3 +96,47 @@ Choosing the right command depends on where the information is:
 ## Tomorrow's Goal
 
 Learn Linux permissions, ownership, users and groups.
+
+
+## Day 5 – Linux Users & Groups
+
+### Objective
+
+Learn Linux users, groups, and ownership concepts.
+
+### Activities
+
+- Created Linux groups
+- Created users
+- Assigned users to groups
+- Explored /etc/passwd
+- Explored /etc/group
+- Learned UID and GID
+- Investigated directory permissions using namei
+
+### Biggest Lesson
+
+Directory permissions are checked before file permissions.
+
+### Challenge
+
+Received "Permission denied" when trying to access Alice's file.
+
+### Root Cause
+
+I did not have execute (traverse) permission on Alice's home directory.
+
+### Resolution
+
+Used `namei -l` to trace permissions along the path.
+
+### Commands Practiced
+
+whoami
+id
+groups
+groupadd
+useradd
+usermod
+grep
+namei
