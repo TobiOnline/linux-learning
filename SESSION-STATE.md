@@ -16,7 +16,7 @@
 
 ## Current Module
 
-**Linux users, groups, permissions, and ownership**
+**Processes & Services**
 
 ### Concepts already understood
 
@@ -30,6 +30,13 @@
 - User-private groups
 - Principle of least privilege
 - Path permission troubleshooting using `namei -l`
+- chown
+- chgrp
+- Symbolic chmod
+- umask
+- setgid
+- Sticky bit
+- Shared directory administration
 
 ### Commands already practised
 
@@ -118,44 +125,29 @@ Observed:
 
 ## Active Unfinished Work
 
-The users-and-groups session is not fully closed until documentation and Git work are complete.
+No unfinished work remains from the previous users-and-groups session.
 
-Required documentation:
-
-
-Required documentation:
-
-- [ ] Capture useful screenshots from the WSL lab
-- [ ] Commit and push documentation
-- [ ] Check final Git status
-
-Suggested screenshots:
-
-1. `id alice`, `id bob`, and `id charlie`
-2. `/etc/group` output showing department membership
-3. `namei -l /home/alice/testfile.txt` showing the permission barrier
-4. `ls -ld /home/alice` and Alice's file ownership
-
-Do not expose passwords or sensitive information in screenshots.
-
+Screenshots from that lesson were intentionally deferred. A stronger access-control screenshot will be captured during the Secure Shared Project Folder Lab.
 ---
 
 ## Exact Next Technical Step
 
-Next Module: Ownership & Advanced Permissions
+Next Module: Processes & Services
 
 Topics
 
-1. chown
-2. chgrp
-3. Symbolic chmod
-4. umask
-5. setgid
-6. sticky bit
+1. ps
+2. top / htop
+3. jobs
+4. bg
+5. fg
+6. kill
+7. systemctl
+8. service
 
 Lab
 
-Secure Shared Project Folder
+Investigate and manage Linux processes.
 
 ## Next Modules After Ownership
 
@@ -177,7 +169,7 @@ Secure Shared Project Folder
 
 - [x] Linux filesystem and navigation
 - [x] File management
-- [ ] File permissions and ownership — in progress
+- [x] File permissions and ownership
 - [x] Users and groups
 - [ ] Processes and services
 - [ ] Package management
@@ -196,8 +188,8 @@ Secure Shared Project Folder
 - [x] Linux navigation lab
 - [x] Directory structure challenge
 - [x] File inspection lab
-- [ ] Secure shared project folder
-- [ ] Create and manage Linux users — practical work done; report pending
+- [x] Secure shared project folder
+- [x] Create and manage Linux users
 - [ ] Process monitoring exercise
 - [ ] Install and configure common tools
 - [ ] Configure SSH access between machines

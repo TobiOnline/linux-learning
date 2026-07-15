@@ -8,7 +8,7 @@
 
 ☑ Linux filesystem & navigation
 ☑ File management
-◐ File permissions & ownership
+☑ File permissions & ownership
 ☑ Users & groups
 ☐ Processes & services
 ☐ Package management

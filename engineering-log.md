@@ -140,3 +140,49 @@ useradd
 usermod
 grep
 namei
+
+
+## Day 6 – Ownership & Advanced Permissions
+
+### Objective
+
+Learn Linux file ownership, group ownership, advanced permissions, and configure secure shared directories.
+
+### Activities
+
+- Practised `chown` to change file ownership.
+- Practised `chgrp` to change group ownership.
+- Used symbolic `chmod` to modify permissions.
+- Configured a shared project directory for the `developers` group.
+- Enabled the `setgid` bit and verified group inheritance.
+- Explored how `umask` determines default file and directory permissions.
+- Configured a shared directory with the sticky bit.
+- Verified that users could not delete files they did not own.
+
+### Biggest Lesson
+
+Linux security is built from several layers working together. Ownership, groups, permissions, `umask`, `setgid`, and the sticky bit each solve a different problem, and together they enable secure collaboration.
+
+### Challenge
+
+Understanding the difference between `setgid` and the sticky bit, and how they affect different aspects of file management.
+
+### Resolution
+
+Performed practical labs with multiple users (`alice`, `bob`, and `charlie`) and observed the effects directly.
+
+### Commands Practised
+
+- chown
+- chgrp
+- chmod
+- umask
+- mkdir
+- touch
+- rm
+- ls
+- cat
+
+### Reflection
+
+Today's session felt much closer to real Linux administration. Configuring shared directories and testing permissions with different users made the concepts much clearer than simply reading about them.
