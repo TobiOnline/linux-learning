@@ -186,3 +186,39 @@ Performed practical labs with multiple users (`alice`, `bob`, and `charlie`) and
 ### Reflection
 
 Today's session felt much closer to real Linux administration. Configuring shared directories and testing permissions with different users made the concepts much clearer than simply reading about them.
+
+
+## Day 7 – Processes & Services
+
+### Objectives
+
+- Learn how Linux manages processes.
+- Monitor system activity using process monitoring tools.
+- Control foreground and background jobs.
+- Understand Linux signals and safe process termination.
+
+### Work Completed
+
+- Explored running processes using `ps`, `ps -f`, and `ps -e`.
+- Monitored live system activity with `top` and `htop`.
+- Practiced running commands in the foreground and background.
+- Managed jobs using `jobs`, `fg`, and `bg`.
+- Used `Ctrl+C` and `Ctrl+Z` to control running processes.
+- Terminated processes using `kill` and job IDs.
+- Completed the Process Monitoring Lab.
+
+### Challenges
+
+Initially distinguishing between Linux processes (managed by the kernel) and Bash jobs (managed by the shell). Practical exercises made the difference much clearer.
+
+### Key Takeaways
+
+- A program becomes a process when it is executed.
+- Every process has a unique PID.
+- Bash tracks jobs, while the kernel tracks processes.
+- `kill` sends signals; by default it sends `SIGTERM` for graceful termination.
+- `SIGKILL` (`kill -9`) should only be used as a last resort.
+
+### Next Module
+
+Networking Fundamentals

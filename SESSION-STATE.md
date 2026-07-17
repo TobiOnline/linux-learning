@@ -2,6 +2,8 @@
 
 > Update this file at the end of every session. Read it before beginning the next session.
 
+---
+
 ## Current Status
 
 - Current phase: Phase 1 — Foundations
@@ -9,72 +11,66 @@
 - Linux workspace: `/home/olawoyin/DevSecOps`
 - Learning repository: `/home/olawoyin/DevSecOps/linux-learning`
 - GitHub repository: `TobiOnline/linux-learning`
-- Default shell environment for Linux lessons: Ubuntu WSL
-- Windows Git Bash: no longer the default for Linux administration
+- Default shell environment: Ubuntu WSL
+- Windows Git Bash: Used only when appropriate (Git workflows on Windows), not as the default Linux environment.
 
 ---
 
-## Current Module
+# Last Completed Module
 
-**Processes & Services**
+## Processes & Services ✅
 
-### Concepts already understood
+### Concepts Mastered
 
-- Owner, group, and others
-- Read, write, and execute permissions
-- Numeric permissions such as `600`, `644`, `700`, `755`, and `775`
-- File permissions versus directory permissions
-- Directory traversal using execute permission
-- UID versus GID
-- Primary versus supplementary groups
-- User-private groups
-- Principle of least privilege
-- Path permission troubleshooting using `namei -l`
-- chown
-- chgrp
-- Symbolic chmod
-- umask
-- setgid
-- Sticky bit
-- Shared directory administration
+- Program vs Process
+- Process lifecycle
+- PID and PPID
+- Foreground vs Background processes
+- Linux process table
+- Bash job table
+- Linux signals
+- SIGTERM vs SIGKILL
 
-### Commands already practised
+### Commands Practised
 
 ```text
-pwd
-ls
-cd
-mkdir
-touch
-cp
-mv
-rm
-cat
-echo
-head
-tail
-less
-wc
-file
-find
-grep
-chmod
-whoami
-id
-groups
-groupadd
-useradd
-usermod
-namei
-sudo
-apt
+ps
+ps -f
+ps -e
+top
+htop
+jobs
+fg
+bg
+kill
+kill -9
+kill %job
 ```
 
 ---
 
-## Current Lab State
+# Labs Completed
 
-Groups created:
+## Process Monitoring Lab
+
+Completed the following:
+
+- Started foreground processes
+- Started background processes using `&`
+- Suspended processes with `Ctrl + Z`
+- Resumed jobs using `bg`
+- Returned jobs using `fg`
+- Listed running jobs with `jobs`
+- Located PIDs using `ps`
+- Terminated processes using `kill PID`
+- Terminated jobs using `kill %job`
+- Successfully managed multiple concurrent background jobs
+
+---
+
+# Current Lab State
+
+Linux users and groups remain configured:
 
 ```text
 developers
@@ -82,7 +78,7 @@ finance
 interns
 ```
 
-Users created:
+Users:
 
 ```text
 alice
@@ -98,118 +94,130 @@ bob     -> finance
 charlie -> interns
 ```
 
-Observed account information:
-
-```text
-alice: UID 1001, primary private group alice, supplementary group developers
-bob: UID 1002, primary private group bob, supplementary group finance
-charlie: UID 1003, primary private group charlie, supplementary group interns
-```
-
-Created:
-
-```text
-/home/alice/testfile.txt
-```
-
-Observed:
-
-- File owner: `alice`
-- File group: `alice`
-- File mode: `-rw-r--r--`
-- Alice's home mode: `drwxr-x---`
-- User `olawoyin` could not traverse `/home/alice`
-- `namei -l /home/alice/testfile.txt` correctly identified the permission barrier
+These remain available for future administration exercises.
 
 ---
 
-## Active Unfinished Work
+# Active Unfinished Work
 
-No unfinished work remains from the previous users-and-groups session.
+Documentation remaining:
 
-Screenshots from that lesson were intentionally deferred. A stronger access-control screenshot will be captured during the Secure Shared Project Folder Lab.
----
+- Capture screenshots for the Processes & Services module (optional but recommended)
+- Commit and push today's documentation
 
-## Exact Next Technical Step
-
-Next Module: Processes & Services
-
-Topics
-
-1. ps
-2. top / htop
-3. jobs
-4. bg
-5. fg
-6. kill
-7. systemctl
-8. service
-
-Lab
-
-Investigate and manage Linux processes.
-
-## Next Modules After Ownership
-
-1. Processes and services
-2. Package management
-3. Networking fundamentals
-4. SSH
-5. Cron jobs
-6. Bash scripting
-7. Python fundamentals
-8. Git branching, pull requests, and collaboration
-9. Phase 1 flagship project
+No technical lessons remain unfinished.
 
 ---
 
-## Current Phase 1 Progress
+# Exact Next Module
 
-### Learning objectives
+## Networking Fundamentals
+
+Topics to cover:
+
+1. Network interfaces
+2. IP addressing
+3. Loopback interface
+4. Private vs Public IPs
+5. CIDR notation
+6. Default gateway
+7. DNS
+8. Essential networking commands
+   - ip
+   - ping
+   - hostname
+   - ss
+   - netstat (comparison)
+   - curl
+   - wget
+   - traceroute
+9. Network troubleshooting workflow
+
+Lab:
+
+- Diagnose and troubleshoot Linux network connectivity.
+
+---
+
+# Upcoming Modules
+
+1. Networking Fundamentals
+2. Package Management
+3. SSH
+4. Cron Jobs
+5. Bash Scripting
+6. Python Fundamentals
+7. Git Branching & Pull Requests
+8. GitHub Collaboration
+9. Phase 1 Flagship Project
+
+---
+
+# Phase 1 Progress
+
+## Learning Objectives
 
 - [x] Linux filesystem and navigation
 - [x] File management
 - [x] File permissions and ownership
 - [x] Users and groups
-- [ ] Processes and services
+- [x] Processes and services
+- [ ] Networking fundamentals
 - [ ] Package management
 - [ ] SSH
 - [ ] Cron jobs
 - [x] Git fundamentals
 - [ ] Git branching and pull requests
 - [ ] GitHub collaboration
-- [ ] Networking fundamentals
 - [ ] Security fundamentals
 - [ ] Bash scripting
 - [ ] Python fundamentals
 
-### Labs and projects
+## Labs & Projects
 
 - [x] Linux navigation lab
 - [x] Directory structure challenge
 - [x] File inspection lab
 - [x] Secure shared project folder
 - [x] Create and manage Linux users
-- [ ] Process monitoring exercise
+- [x] Process monitoring exercise
+- [ ] Network troubleshooting lab
 - [ ] Install and configure common tools
 - [ ] Configure SSH access between machines
 - [ ] Automated backup script
 - [x] Git practice repository
 - [ ] Branching workflow exercise
 - [ ] Open and merge a pull request
-- [ ] Network troubleshooting lab
 - [ ] Security notes repository
 - [ ] Bash utility scripts
 - [ ] Python automation scripts
 
 ---
 
-## Session Start Instruction
+# Session Start Instructions
 
-At the start of the next session:
+At the beginning of the next session:
 
-1. Read this file.
-2. Check the active unfinished documentation tasks.
-3. Close unfinished work before introducing unrelated material.
-4. State the session objective and completion criteria.
-5. Continue from `chown`, `chgrp`, symbolic permissions, and the shared-folder lab.
+1. Open the Linux learning repository.
+2. Pull the latest changes.
+3. Check that the working tree is clean.
+4. Read this `SESSION-STATE.md` file.
+5. Review the session dashboard.
+6. Begin the **Networking Fundamentals** module.
+7. Follow the learning cycle:
+   - Predict
+   - Experiment
+   - Observe
+   - Explain
+   - Generalize
+
+---
+
+# Standard Session Startup
+
+```bash
+cd ~/DevSecOps/linux-learning
+git pull
+git status
+cat SESSION-STATE.md
+```
