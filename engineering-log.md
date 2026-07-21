@@ -221,4 +221,38 @@ Initially distinguishing between Linux processes (managed by the kernel) and Bas
 
 ### Next Module
 
-Networking Fundamentals
+Networking Fundamentalscd
+
+
+## 2026-07-21 — Networking Fundamentals
+
+### What I Learned
+
+- Network interfaces
+- Private vs public IP addresses
+- CIDR notation
+- WSL networking
+- NAT
+- DNS
+- Routing
+- Default gateway
+
+### Biggest Lesson
+
+Networking is a chain of components. DNS resolves names, routing decides where packets go, and the gateway forwards traffic outside the local network.
+
+### Labs Completed
+
+- Inspected network interfaces
+- Compared Windows and WSL networking
+- Identified private/public IPs
+- Tested DNS resolution with ping
+- Examined routing table and default gateway
+
+### Wins
+
+I can now explain how a packet travels from my Ubuntu WSL instance to the Internet.
+
+### Next Session
+
+Begin Linux network troubleshooting tools (`curl`, `ss`, `dig`, `traceroute`, `netcat`).

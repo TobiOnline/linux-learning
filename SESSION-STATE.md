@@ -100,58 +100,39 @@ These remain available for future administration exercises.
 
 # Active Unfinished Work
 
-Documentation remaining:
-
-- Capture screenshots for the Processes & Services module (optional but recommended)
-- Commit and push today's documentation
-
-No technical lessons remain unfinished.
+none
 
 ---
 
-# Exact Next Module
+## Current Phase
 
-## Networking Fundamentals
+Phase 1 – Foundations
 
-Topics to cover:
+## Current Module
 
-1. Network interfaces
-2. IP addressing
-3. Loopback interface
-4. Private vs Public IPs
-5. CIDR notation
-6. Default gateway
-7. DNS
-8. Essential networking commands
-   - ip
-   - ping
-   - hostname
-   - ss
-   - netstat (comparison)
-   - curl
-   - wget
-   - traceroute
-9. Network troubleshooting workflow
+Networking Fundamentals
 
-Lab:
+## Status
 
-- Diagnose and troubleshoot Linux network connectivity.
+Completed:
+- Network interfaces
+- Private vs Public IPs
+- CIDR (concept)
+- WSL networking
+- NAT (introduction)
+- DNS
+- Routing
+- Default gateway
 
----
+## Next Module:
+Linux Network Troubleshooting Tools
 
-# Upcoming Modules
-
-1. Networking Fundamentals
-2. Package Management
-3. SSH
-4. Cron Jobs
-5. Bash Scripting
-6. Python Fundamentals
-7. Git Branching & Pull Requests
-8. GitHub Collaboration
-9. Phase 1 Flagship Project
-
----
+First commands:
+- curl
+- ss
+- dig
+- traceroute
+- nc
 
 # Phase 1 Progress
 
