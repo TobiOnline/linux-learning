@@ -108,31 +108,13 @@ none
 
 Phase 1 – Foundations
 
-## Current Module
+## Last Completed Module
 
-Networking Fundamentals
+Networking Fundamentals ✅
 
-## Status
+## Next Module
 
-Completed:
-- Network interfaces
-- Private vs Public IPs
-- CIDR (concept)
-- WSL networking
-- NAT (introduction)
-- DNS
-- Routing
-- Default gateway
-
-## Next Module:
-Linux Network Troubleshooting Tools
-
-First commands:
-- curl
-- ss
-- dig
-- traceroute
-- nc
+Package Management
 
 # Phase 1 Progress
 
