@@ -15,9 +15,9 @@
 - [x] File Permissions & Ownership
 - [x] Users & Groups
 - [x] Processes & Services
-- [ ] Networking Fundamentals
-- [ ] Package Management
-- [ ] SSH
+- [x] Networking Fundamentals
+- [x] Package Management
+- [x] SSH
 - [ ] Cron Jobs
 
 ---
@@ -54,9 +54,9 @@
 - [x] Secure Shared Project Folder Lab
 - [x] User & Group Administration Lab
 - [x] Process Monitoring Lab
-- [ ] Network Troubleshooting Lab
-- [ ] Package Management Lab
-- [ ] SSH Administration Lab
+- [x] Network Troubleshooting Lab
+- [x] Package Management Lab
+- [x] SSH Administration Lab
 - [ ] Cron Automation Lab
 
 ---

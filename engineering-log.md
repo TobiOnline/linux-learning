@@ -256,3 +256,32 @@ I can now explain how a packet travels from my Ubuntu WSL instance to the Intern
 ### Next Session
 
 Begin Linux network troubleshooting tools (`curl`, `ss`, `dig`, `traceroute`, `netcat`).
+---
+
+## 2026-08-02 — Package Management and SSH
+
+### What I Learned
+
+- How to manage Ubuntu packages with APT and DPKG
+- The difference between apt update and apt upgrade
+- How to install, inspect, verify and remove packages
+- The difference between an SSH client and SSH server
+- How SSH key-based authentication works
+- Required permissions for SSH keys and configuration files
+
+### Practical Work
+
+- Inspected and verified the htop package
+- Installed, verified and removed the tree package
+- Installed and enabled openssh-server
+- Generated an ED25519 SSH key
+- Configured authorized_keys
+- Logged into localhost using key-based authentication
+
+### Biggest Win
+
+Successfully configured an SSH server and authenticated without a password.
+
+### Next Goal
+
+Begin the Cron Jobs module.
