@@ -285,3 +285,42 @@ Successfully configured an SSH server and authenticated without a password.
 ### Next Goal
 
 Begin the Cron Jobs module.
+
+
+---
+
+## 2026-08-27 — Cron Jobs and Backup Automation
+
+### What I Learned
+
+- Difference between `cron` and `crontab`
+- Cron scheduling syntax
+- How to use `crontab -e` and `crontab -l`
+- How to inspect Cron activity with `journalctl -u cron`
+- How Cron runs scheduled jobs in a limited environment
+- Why absolute paths are important in scheduled automation
+- How file permissions and `umask` can differ between interactive and Cron execution
+
+### Practical Work
+
+- Created a user Cron job
+- Verified scheduled execution using a timestamp log
+- Built a Bash backup script
+- Created timestamped `.tar.gz` archives
+- Tested the backup script manually
+- Scheduled the script with Cron
+- Verified Cron-created backups through system logs
+- Checked ownership and permissions of generated files
+- Removed the temporary every-minute Cron schedule after testing
+
+### Biggest Lesson
+
+Automation should be tested manually before being scheduled. Cron can successfully launch a job while the underlying command or script still fails, so the scheduler and the task itself must be validated separately.
+
+### Biggest Win
+
+Successfully automated Linux backups with Cron and verified the execution through `journalctl`.
+
+### Next Goal
+
+Complete Linux Fundamentals closeout and move into the remaining Phase 1 objectives.
