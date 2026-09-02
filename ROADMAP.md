@@ -147,7 +147,7 @@ This project will combine:
 
 **Current Phase:** Phase 1 – Foundations
 
-**Current Module:** Linux Fundamentals Closeout
+**Current Module:** Bash Scripting
 
 **Linux Fundamentals Completed:** 9 / 9 modules
 
@@ -161,4 +161,4 @@ This project will combine:
 - ✅ SSH
 - ✅ Cron Jobs
 
-**Next Focus:** Linux closeout review, documentation cleanup, and Phase 1 knowledge assessment.
+**Next Focus:** Assess existing Bash knowledge, then complete the Bash Scripting module and Bash Utility Collection.
