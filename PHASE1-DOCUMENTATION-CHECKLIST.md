@@ -9,9 +9,9 @@ Use this file to prevent documentation tasks from being forgotten.
 - [x] `engineering-log.md` exists
 - [x] `docs/Week01-Review.md` exists
 - [x] Screenshot folders exist
-- [ ] Add `Linux/CheatSheets/`
+- [x] Add `Linux/CheatSheets/`
 - [ ] Add `Linux/Diagrams/` when needed
-- [ ] Complete Week 1 review
+- [x] Complete Week 1 review
 - [ ] Create a Phase 1 summary at the end of the phase
 - [ ] Polish the main README before Phase 1 completion
 
@@ -41,16 +41,16 @@ For every session:
 
 - [x] Day 1 notes
 - [x] Command notes started
-- [ ] Confirm navigation lab report is complete
-- [ ] Confirm directory structure challenge is documented
-- [ ] Add a navigation/file-management cheat sheet
+- [x] Confirm navigation lab report is complete
+- [x] Confirm directory structure challenge is documented
+- [x] Add a navigation/file-management cheat sheet
 
 ### File inspection and searching
 
 - [x] Practised `head`, `tail`, `less`, `wc`, `file`, `find`, and `grep`
 - [x] Created `markdown-files.txt`
-- [ ] Create or verify a proper file-inspection lab report
-- [ ] Add key commands to a cheat sheet
+- [x] Create or verify a proper file-inspection lab report
+- [x] Add key commands to a cheat sheet
 - [ ] Decide whether a screenshot adds value
 
 ### Permissions
@@ -59,12 +59,12 @@ For every session:
 - [x] Numeric `chmod` covered
 - [x] Windows/Git Bash limitation discovered
 - [x] WSL environment configured
-- [ ] Repeat permission changes on native Linux filesystem
+- [x] Repeat permission changes on native Linux filesystem
 - [ ] Capture before-and-after `chmod` screenshot
-- [ ] Create permissions note
-- [ ] Create permissions lab report
-- [ ] Update permissions cheat sheet
-- [ ] Finish `chown`, `chgrp`, symbolic modes, `umask`, setgid, and sticky bit
+- [x] Create permissions note
+- [x] Create permissions lab report
+- [x] Update permissions cheat sheet
+- [x] Finish `chown`, `chgrp`, symbolic modes, `umask`, setgid, and sticky bit
 
 ### Users and groups
 
@@ -76,10 +76,10 @@ For every session:
 - [x] Create or verify topic notes
 - [x] Create users-and-groups lab report
 - [ ] Capture useful screenshots
-- [ ] Update engineering log
+- [x] Update engineering log
 - [x] Update roadmap
-- [ ] Commit and push
-- [ ] Mark objective complete only after validation and documentation
+- [x] Commit and push
+- [x] Mark objective complete only after validation and documentation
 
 ---
 
